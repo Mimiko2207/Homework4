@@ -3,12 +3,12 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("ЗАДАЧА 1");
-        int age = 25;
+        int age = 16;
         if (age >= 18) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         }
 
-        if (age < 18) {
+        else if(age < 18) {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
         }
         System.out.println("ЗАДАЧА 2");
@@ -17,7 +17,7 @@ public class Main {
             System.out.println("На улице холодно, нужно надеть шапку");
         }
 
-        if (temperature >= 5) {
+        else if (temperature >= 5) {
             System.out.println("Сегодня тепло, можно идти без шапки");
 
             System.out.println("ЗАДАЧА 3");
@@ -26,29 +26,29 @@ public class Main {
                 System.out.println("Если скорость " + speed + " ,то можно ездить спокойно ");
             }
 
-            if (speed > 60) {
+            else if (speed > 60) {
                 System.out.println("Если скорость " + speed + " ,то придется заплатить штраф");
 
                 System.out.println("ЗАДАЧА 4");
-                int years = 21;
+                int years = 60;
                 if (years > 2 && years < 6) {
                     System.out.println("Если возраст человека равен " + years + " то ему нужно ходить в детский сад");
-                }if (years < 17 && years > 7) {
+                }else if (years < 17 && years > 7) {
                     System.out.println("Если возраст человека равен " + years + " то ему нужно ходить в школу");
-                }if (years >= 18 && years <= 24) {
+                }else if (years >= 18 && years <= 24) {
                     System.out.println("Если возраст человека равен " + years + " то его место в университете");
-                }if (years > 24) {
+                }else if (years > 24) {
                     System.out.println("Если возраст человека равен " + years + " то ему пора на работу");
                 }
 
 
                 System.out.println("ЗАДАЧА 5");
-                int yearKed = 5;
+                int yearKed = 17;
                 if (yearKed <5){
                     System.out.println("Если возраст ребенка равен " + yearKed + " , то ему нельзя кататься на аттракционе");}
-                if (yearKed >=5 && yearKed <14){
+                else if (yearKed >=5 && yearKed <14){
                     System.out.println("Если возраст ребенка равен " + yearKed + " , то ему можно кататься на аттракционе в сопровождении взрослого");}
-                if (yearKed >=14){
+                else if (yearKed >=14){
                     System.out.println("Если возраст ребенка равен " + yearKed + " , то ему можно кататься на аттракционе без сопровождении взрослого");}
 
 
@@ -73,7 +73,7 @@ public class Main {
 
                 System.out.println("ЗАДАЧА 7 ");
                 int one = 5;
-                int two = 30;
+                int two = 25;
                 int three = 30;
                 if (one > two && one > three){
                     System.out.println(one);}
