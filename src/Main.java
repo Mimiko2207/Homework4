@@ -71,7 +71,7 @@ public class Main {
                 }else if (standing >42) {
                     System.out.println("Стоячих мест нет");}
 
-                System.out.println("ЗАДАЧА 7");
+                System.out.println("ЗАДАЧА 7 ");
                 int one = 5;
                 int two = 30;
                 int three = 30;
