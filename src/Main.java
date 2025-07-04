@@ -76,6 +76,7 @@ public class Main {
         }
 
 
+
         System.out.println("ЗАДАЧА 7 ");
         int one = 5;
         int two = 25;
